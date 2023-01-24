@@ -1,0 +1,118 @@
+/* styling of uno sheet hw3 */
+
+body {
+    font-family: Arial, Verdana;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+/*  default headers */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    color: #0D0D0D;
+    font-size: 30px;
+}
+
+/* default paragraphs */
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* default image */
+img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    border: 10px #fff dashed;
+}
+
+/* default div */
+div {
+    padding-top : 20px; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 3px #fff solid;
+    height: auto;
+    min-height: 125px;
+}
+
+div.introduction
+{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+div.red
+{
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+}
+
+div.blue
+{
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+}
+
+/* change this */
+div.blue h2, div.blue p
+{
+    color: #C4C4C4;
+}
+
+div.yellow
+{
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+}
+
+div.yellow p{
+    color: #707070
+}
+
+div.green
+{
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+}
+
+footer{
+    background-image: linear-gradient(90deg, #000000 0%, #0066ff 70%,  #000000 100%);
+    border: 5px solid #fff;
+}
+
+footer.p
+{
+    text-align: right;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
