@@ -115,8 +115,9 @@ footer{
     border: 5px solid #fff;
 }
 
-footer.p
+footer p
 {
+    text-align: right;
     font-size: 20px;
     padding-right: 15px;
     padding-top: 15px;
